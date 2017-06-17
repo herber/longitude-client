@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Longitude</title>
+        <style media="screen">
+            body {
+                margin-top: 100;
+                text-align: center;
+                font-family: sans-serif;
+            }
+        </style>
+        <script src="../../dist/longitude.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <h1>Longitude - Browser</h1>
+        <p id="ip"></p>
+        <script type="text/javascript">
+            longitude('').then(function(data) {
+                document.getElementById('ip').innerHTML = data.ip + '<br /> Country: ' + data.country_name;
+                console.log(data);
+            });
+        </script>
+    </body>
+</html>
