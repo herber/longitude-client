@@ -55,6 +55,10 @@ Type: `string`
 
 The IP - Address you want to check
 
+## Related
+- [longitude](https://github.com/tobihrbr/longitude) - Geoip for node.js
+- [longitude-cli](https://github.com/tobihrbr/longitude-cli) - Geoip for the commandline
+
 ## License
 
 MIT © [Tobias Herber](https://tobihrbr.com)
